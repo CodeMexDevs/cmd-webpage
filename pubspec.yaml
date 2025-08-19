@@ -1,0 +1,44 @@
+name: codemexdevs
+description: codemexdevs project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  http: ^1.1.2
+  flutter_dotenv: ^5.1.0
+  model_viewer_plus: ^1.7.0
+  url_launcher: ^6.2.2
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - .env
+    - assets/images/hero_bg_1.png
+    - assets/images/hero_bg_2.png
+    - assets/images/hero_bg_3.png
+    - assets/content/
+    - assets/images/
+    - assets/models/bridge.glb
+    - assets/models/robot.glb
+    - assets/models/turbine.glb
+    - assets/models/car.glb
+    - assets/images/ai_1.png # NEW: Placeholder image for AI content
+    - assets/images/ai_2.png # NEW: Placeholder image for AI content
+    - assets/images/ai_3.png # NEW: Placeholder image for AI content
+    - assets/images/data_1.png # NEW: Placeholder image for Data Analysis content
+    - assets/images/data_2.png # NEW: Placeholder image for Data Analysis content
+    - assets/images/data_3.png # NEW: Placeholder image for Data Analysis content
