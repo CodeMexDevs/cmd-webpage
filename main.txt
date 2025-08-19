@@ -1,0 +1,2 @@
+Para cambiar el aspecto del sitio por favor modifique los colores en constants
+modifique los assets en assets manteniendo el mismo nombre para reemplazar las imagenes
